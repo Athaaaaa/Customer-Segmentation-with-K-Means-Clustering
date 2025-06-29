@@ -8,17 +8,10 @@ This project performs behavioral and credit‐feature–based segmentation of cr
 ## Repository Structure  
 ```
 ├── data/  
-│   ├── raw/                # Original Kaggle “Customer Segmentation” CSV  
-│   └── processed/          # Cleaned & PCA-transformed data  
-├── notebooks/              # Jupyter notebooks  
+├── notebooks/              
 │   └── kmeans_clustering.ipynb  
-├── scripts/                # Standalone Python scripts  
-│   ├── preprocess.py       # Missing values & outlier handling  
-│   ├── reduce_dim.py       # PCA pipeline  
-│   └── cluster.py          # K-Means modeling & evaluation  
-├── reports/                # Figures & tables exported  
-├── requirements.txt        # Python dependencies  
-└── README.md               # This file  
+├── reports/                
+└── README.md             
 ```
 
 ## 🗄️ Dataset  
