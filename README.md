@@ -11,9 +11,7 @@ This project performs behavioral and credit‐feature–based segmentation of cr
 │   ├── raw/                # Original Kaggle “Customer Segmentation” CSV  
 │   └── processed/          # Cleaned & PCA-transformed data  
 ├── notebooks/              # Jupyter notebooks  
-│   ├── 01_data_preprocessing.ipynb  
-│   ├── 02_pca_dimensionality_reduction.ipynb  
-│   └── 03_kmeans_clustering.ipynb  
+│   └── kmeans_clustering.ipynb  
 ├── scripts/                # Standalone Python scripts  
 │   ├── preprocess.py       # Missing values & outlier handling  
 │   ├── reduce_dim.py       # PCA pipeline  
