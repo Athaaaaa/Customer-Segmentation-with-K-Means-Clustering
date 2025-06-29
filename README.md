@@ -45,18 +45,14 @@ This project performs behavioral and credit‐feature–based segmentation of cr
 ## 📏 Dimensionality Reduction (PCA)  
 
 - Applied PCA to retain top 5 components, preserving 95.5% of total variance (PC1–PC2 ≈ 65.3%).  
-- Transformed dataset stored in `data/processed/df_pca.csv`.
 
 ---
 
 ## 🔍 Clustering (K-Means)  
 
 1. **Optimal k Selection**  
-   - Elbow Method over k=2–10; elbow point at k = 5.  
 2. **Model Training**  
-   - `KMeans(n_clusters=5, random_state=42)` on PCA data.  
 3. **Cluster Assignment**  
-   - Each sample labeled 0–4; labels appended to processed DataFrame.
 
 ---
 
